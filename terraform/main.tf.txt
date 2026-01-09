@@ -7,7 +7,7 @@ resource "aws_instance" "web" {
   instance_type = "t3.micro"
   key_name      = "mykey"
 
-  vpc_security_group_ids = ["sg-XXXXXXXX"]   # (abhi blank chhod de, next step me fill karenge)
+  vpc_security_group_ids = [sg-02810e8ba9b9ded04]   # (abhi blank chhod de, next step me fill karenge)
 
   user_data = <<EOF
 #!/bin/bash
